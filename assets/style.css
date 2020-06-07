@@ -1,0 +1,15 @@
+.header {    
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-color: #000000;
+color: #FFFFFF;
+margin: auto;
+text-align: center;
+}
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+.header h1 .dreami {
+    color: #FF1493;
+}
+
