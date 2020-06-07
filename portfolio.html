@@ -1,27 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/style.css">
-    <title>DREAMIportfolio</title>
+    <title>DREAMIPortfolio</title>
 </head>
-<header class=header>
-    <h1>...an<span class="dreami">DREAMi</span>lena... </h1>
-</header>
 
+<body style="background-image: url('assets/images/defocused-image-of-lights-255379.jpg'); background-size: cover;"
+    alt="defocused-image-of-lights"></body>
 
-
-<body>
-
-
-
-
-    
+    <header class="header">
+        <h1>...an<span class="dreami">DREAMi</span>lena... </h1>
+    </header> 
+    <!--This is a consistent Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #89cff0">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="navbar navbar-d bg-transparent flex-fill justify-content-around">
+        <span class="navbar-text bold">
+          <h5 class="bold">PORTFOLIO</h5>
+        </span>
+      </nav>
+       <!--This are sub-rows and sub-columns-->
+    <main class="container">
+        <section>
+            <div class="row justify-content-around">
+                 <div class="col-12">
+                    <div class="row">
+                        <div class="col col-12 col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/images/Smokey's-game.png" class="card-img-top" alt="scratch-game-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Smokey Shoots Covid Bats - Scratch Game</h5>
+                                    <a href="https://scratch.mit.edu/projects/396064541" class="btn btn-primary">Play</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/images/my-first-website.png" class="card-img-top" alt="my-first-website-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">My First Website Project - About Me</h5>
+                                    <a href="https://andreg303.github.io/prework-about-me/" class="btn btn-primary">More About Me</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/images/code-refactor-project.png" class="card-img-top" alt="website-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Code-Refactor-Project Debugging</h5>
+                                    <a href="https://andreg303.github.io/Code-refactor-project-AG/" class="btn btn-primary">Check It Out</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </section>
+    </main>
+         <!--This is a sticky footer-->
+     <footer>
+        <nav class="navbar fixed-bottom navbar-light bg-transparent flex-fill justify-content-center">
+            <span class="navbar-text">
+                win win win win ❤️️ &COPY;andreaMgamez
+            </span>
+        </nav>
+    </footer>
 </body>
 </html>
