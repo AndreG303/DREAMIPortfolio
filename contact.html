@@ -16,7 +16,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/style2.css">
     <title>DREAMIPortfolio</title>
 </head>
 
@@ -46,20 +46,57 @@
             </ul>
         </div>
     </nav>
-    
+    <nav class="navbar navbar-d bg-transparent flex-fill justify-content-around">
+        <span class="navbar-text bold">
+          <h5 class="bold">CONTACT ME</h5>
+        </span>
+    </nav>
+       <!--This are sub-rows and sub-columns-->
     <main class="container">
-        <section class="card text-center">
-            <h5 class="card-header">CONTACT ME</h5>
-            <div class="card-body">
-                <p class="card-text">andreaMgamez@gmail.com</p>
-                <a href="https://www.facebook.com/home.pnp" class="btn btn-primary">facebook</a>
-                <a href="" class="btn btn-primary">github</a>
-            </div>
-            <div class="card-footer text-muted">
-            . . .
-            </div>
-        </section>
-    </main>
+            <div class="row justify-content-around">
+                 <div class="col-12">
+                    <div class="row">
+                        <div class="col col-12 col-md-6">
+                            <form class="inline">
+                                <div class="form-group">
+                                   <label>Name</label>
+                                   <input type="text" class="form-control" placeholder="Add Name"/>
+                                </div>
+                                 <div class="form-group">
+                                   <label>Email</label>
+                                   <input type="text" class="form-control" placeholder="Add Email"/>
+                                </div>
+                                 <label>Message</label>
+                                <div class="form-group">
+                                   <textarea class="form-control" id="Text-Area" placeholder="Add Message">
+                                   </textarea>
+                                </div>
+                                <button type="submit" class="btn btn-dark btn btn-lg">
+                                   Submit
+                                </button>
+                            </form>
+                        </div>
+                        <div class="col col-12 col-md-6">
+                            <section class="card text-center">
+                                <h5 class="card-header">. . .</h5>
+                                 <div class="card-body">
+                                    <a href="mailto:andreamgamez@gmail.com" class="btn btn-dark">gmail</a>
+                                     <a href="https://www.facebook.com/andrea.m.diaz.520" class="btn btn-dark">facebook</a>
+                                     <a href="https://github.com/AndreG303" class="btn btn-dark">github</a>
+                                </div>
+                                <div class="card-footer text-dark">
+                                       . . .
+                                </div>
+                            </section>
+                        </div>
+                    </div> 
+                </div>
+            </div> 
+        </main>
+        <br>
+        <br>
+        <br>
+<!--This is a sticky footer-->
     <footer>
         <nav class="navbar fixed-bottom navbar-light bg-transparent flex-fill justify-content-center">
             <span class="navbar-text">
