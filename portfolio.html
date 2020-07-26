@@ -16,17 +16,28 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/style2.css">
+    <link rel="stylesheet" href="assets/css/style2.css">
     <title>DREAMIPortfolio</title>
+    <script src="https://kit.fontawesome.com/9e14773cf4.js" crossorigin="anonymous"></script>
 </head>
+<body>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">...an<span class="dreami">DREAMi</span>lena...</h1>
+            <p class="lead">Frontend Website Developer Soon to Be Full Stack Website Developer</p>
+            <a href="mailto:andreamgamez@gmail.com" class="btn btn-dark"><i class="fa fa-envelope"
+                aria-hidden="true"></i></a>
+        <a href="https://github.com/AndreG303" class="btn btn-dark"><i class="fa fa-github"
+                aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/andrea-gamez-b228901a9" class="btn btn-dark"><i
+                class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.facebook.com/andrea.m.diaz.520" class="btn btn-dark"><i class="fa fa-facebook-official"
+                aria-hidden="true"></i></a>
+        </div>
+    </header>
 
-<body style="background-image: url('assets/images/defocused-image-of-lights-255379.jpg'); background-size: cover;"></body>
-
-    <header class="header">
-        <h1>...an<span class="dreami">DREAMi</span>lena... </h1>
-    </header> 
     <!--This is a consistent Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #89cff0">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -45,54 +56,92 @@
             </ul>
         </div>
     </nav>
-    <nav class="navbar navbar-d bg-transparent flex-fill justify-content-around">
-        <span class="navbar-text bold">
-          <h5 class="bold">PORTFOLIO</h5>
-        </span>
-      </nav>
-       <!--This are sub-rows and sub-columns-->
     <main class="container">
-        <section>
-            <div class="row justify-content-around">
-                 <div class="col-12">
-                    <div class="row">
-                        <div class="col col-12 col-md-4">
-                            <div class="card" style="width: 18rem;">
-                                <img src="assets/images/Smokey's-game.png" class="card-img-top">
-                                <div class="card-body">
-                                    <h5 class="card-title">Smokey Shoots Covid Bats - Scratch Game</h5>
-                                    <a href="https://scratch.mit.edu/projects/396064541" class="btn btn-primary">Play</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-12 col-md-4">
-                            <div class="card" style="width: 18rem;">
-                                <img src="assets/images/my-first-website.png" class="card-img-top" alt="my-first-website-image">
-                                <div class="card-body">
-                                    <h5 class="card-title">My First Website Project - About Me</h5>
-                                    <a href="https://andreg303.github.io/prework-about-me/" class="btn btn-primary">More About Me</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-12 col-md-4">
-                            <div class="card" style="width: 18rem;">
-                                <img src="assets/images/code-refactor-project.png" class="card-img-top" alt="website-image">
-                                <div class="card-body">
-                                    <h5 class="card-title">Code-Refactor-Project Debugging</h5>
-                                    <a href="https://andreg303.github.io/Code-refactor-project-AG/" class="btn btn-primary">Check It Out</a>
-                                </div>
-                            </div>
-                        </div>
+        <div class="row">
+            <div class="col-sm-4 py-2">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">VIRTUAL ART GALLERY</h3>
+                        <img src="assets/images/gallery.png" class="card-img-top" alt="Virtual_Art_Gallery photo">
+                        <p class="card-text">Dynamic gallery App that can search for pieces of fantasy artwork based on
+                            the user input or at random.</p>
+                        <a href="https://nlamonaco86.github.io/Virtual_Art_Gallery/" class="btn btn-primary">Check it
+                            out</a>
+                        <a href="https://github.com/AndreG303/Virtual_Art_Gallery" class="btn btn-primary">Github
+                            Repository</a>
                     </div>
-                 </div>
+                </div>
             </div>
-        </section>
+            <div class="col-sm-4 py-2">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">WEATHER DASHBOARD</h3>
+                        <img src="assets/images/weather.png" class="card-img-top" alt="Weather-Dashboard-AG photo">
+                        <p class="card-text">A Weather Dashboard application retrieving data from a third party API
+                            (openWeather API), using HTML, CSS and Jquery.</p>
+                        <a href="https://andreg303.github.io/Weather-Dashboard-AG/index.html"
+                            class="btn btn-primary">Check it out</a>
+                        <a href="https://github.com/AndreG303/Weather-Dashboard-AG" class="btn btn-primary">Github
+                            Repository</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 py-2">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">SUPER QUIZ GAMEZ</h3>
+                        <img src="assets/images/quiz.png" class="card-img-top" alt="superquizgamez photo">
+                        <p class="card-text">A responsive timed code and trivia quiz with multiple-choice questions and
+                            interactive challenges.</p>
+                        <a href=" https://andreg303.github.io/superquizgamez/" class="btn btn-primary">Play</a>
+                        <a href="https://github.com/AndreG303/superquizgamez" class="btn btn-primary">Github
+                            Repository</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 py-2">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">WORK DAY PLANNER</h3>
+                        <img src="assets/images/calendar.png" class="card-img-top" alt="work day planner photo">
+                        <p class="card-text">A simple calendar application that allows the user to save events for each
+                            hour of the day.</p>
+                        <a href="https://andreg303.github.io/WorkDaySchedulerAG/" class="btn btn-primary">Check it
+                            out</a>
+                        <a href="https://github.com/AndreG303/WorkDaySchedulerAG" class="btn btn-primary">Github
+                            Repository</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 py-2">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">PASSWORD GENERATOR</h3>
+                        <img src="assets/images/password.png" class="card-img-top" alt="pasword generator photo">
+                        <p class="card-text">A password generator using HTML, CSS and JAVASCRIPT.</p>
+                        <a href="https://andreg303.github.io/JS-password-generator-AG/" class="btn btn-primary">Check it
+                            out</a>
+                        <a href="https://github.com/AndreG303/JS-password-generator-AG" class="btn btn-primary">Github
+                            Repository</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 py-2">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">SCRATCH GAME</h3>
+                        <img src="assets/images/Smokey's-game.png" class="card-img-top" alt="Smokey game photo">
+                        <p class="card-text">A Fun little game where Smokey the kitty Shoots Covid Bats.</p>
+                        <a href="https://scratch.mit.edu/projects/396064541" class="btn btn-primary">Play</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-    <br>
-    <br>
-    <br>
-         <!--This is a sticky footer-->
-    <footer>
+
+    
+    <!--This is a sticky footer-->
+    <footer class="footer">
         <nav class="navbar fixed-bottom navbar-light bg-transparent flex-fill justify-content-center">
             <span class="navbar-text">
                 win win win win ❤️️ &COPY;andreaMgamez
@@ -100,4 +149,5 @@
         </nav>
     </footer>
 </body>
+
 </html>
