@@ -16,4 +16,5 @@ https://andreg303.github.io/DREAMIPortfolio/
    
    
    
-   <img width="325" alt="website-screeen-shot" src="https://user-images.githubusercontent.com/65183415/83979569-58d7d500-a8dd-11ea-9984-6c264b872939.png">
+   ![Screen Shot 2020-07-25 at 10 33 56 PM](https://user-images.githubusercontent.com/65183415/88470159-fe172e80-cec6-11ea-9e98-9a623eee5ca9.png)
+
