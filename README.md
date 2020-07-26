@@ -1,9 +1,7 @@
 # DREAMIPortfolio
 https://andreg303.github.io/DREAMIPortfolio/
 
- Using Bootstrap, I've developed a portfolio site with the following items:
-
-   * A navbar
+ Updated Portfolio Featuring:
 
    * A responsive layout
 
@@ -11,12 +9,8 @@ https://andreg303.github.io/DREAMIPortfolio/
 
    * Functional, deployed application
    
-   * Consistent Navbar on each page
-
-   * Semantic and valid HTML
+   * Semantic and valid HTML,CSS
    
-   * Navbar on each page containing links to Home/About, Contact, and Portfolio pages
-
    * Bootstrap components and grid system
    
    
